@@ -40,7 +40,7 @@ public final class RegionStore {
             }
             try {
                 Object idRaw = map.get("id");
-                UUID id = UUID.fromString(idRaw == null ? \"\" : idRaw.toString());
+                UUID id = UUID.fromString(idRaw == null ? "\"\"" : idRaw.toString());
                 String worldName = valueOf(map.get("world"));
                 if (worldName == null || worldName.isEmpty()) {
                     plugin.getLogger().warning("Region entry missing world at index " + i);
