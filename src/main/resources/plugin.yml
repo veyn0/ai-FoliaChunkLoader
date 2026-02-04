@@ -1,0 +1,5 @@
+name: ai-FoliaChunkLoader
+version: '1.0'
+main: dev.veyno.aiFoliaChunkLoader.AiFoliaChunkLoader
+api-version: '1.21'
+folia-supported: true
