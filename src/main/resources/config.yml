@@ -1,0 +1,4 @@
+limits:
+  max-radius: 16
+  max-radius-admin: 32
+  max-regions-total: 0

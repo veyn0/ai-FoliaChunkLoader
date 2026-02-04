@@ -3,3 +3,17 @@ version: '1.0'
 main: dev.veyno.aiFoliaChunkLoader.AiFoliaChunkLoader
 api-version: '1.21'
 folia-supported: true
+
+commands:
+  keepregion:
+    description: Keep Folia chunk regions loaded.
+    usage: /keepregion <create|list|remove>
+    permission: keepregion.use
+
+permissions:
+  keepregion.use:
+    description: Allows use of /keepregion commands.
+    default: true
+  keepregion.admin:
+    description: Allows higher limits for keepregion commands.
+    default: op
